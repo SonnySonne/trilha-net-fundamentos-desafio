@@ -49,6 +49,10 @@ namespace DesafioFundamentos.Models
                 }
                 Console.WriteLine("Por favor, digite um número válido de horas (0 ou mais).");
             }
+                if (horas > 0)
+                {
+                    horas -= 1;
+                }
                    valorTotal = precoInicial + precoPorHora * horas;
 
 
